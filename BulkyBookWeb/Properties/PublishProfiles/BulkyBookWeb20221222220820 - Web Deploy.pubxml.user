@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAX+xi/YUWkkqKs5BnJZrejwAAAAACAAAAAAAQZgAAAAEAACAAAADXqw9SqVH1EORVEimP/3Rsqmtxkp3Fl+G1W0i+x8l8rwAAAAAOgAAAAAIAACAAAAC87cDIvaiu7qpxbzVvU89Zrz8UIkYD6y+UdPKf93rksIAAAAA+E30EV28C897H5R8eqxJoO7N2p5uYuktx8wAF4NAgK7rBeZn9WwBpY6crSer7jEVpQ9JXGs57Uc//L+xvns0okYHK0AwNcWx0EvIHbguDP9cGdri9Bf8WH7IKwHr97x9UyYx1cfWnnM1f9V83lwKoxEktfrZRluz4WzW7CxvmnUAAAACiYkJxduBePcJRo7EmoS4bIpcfxmoq3DzCi5pkGDJkmPTWGAtqpZGVoKFqgTtAevmby3zY9Tme13iMb5gx76gx</EncryptedPassword>
+    <History>True|2022-12-22T19:43:07.2179798Z;False|2022-12-22T22:29:34.7609597+03:00;False|2022-12-22T22:22:22.5177558+03:00;False|2022-12-22T22:21:04.2291830+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:dotnetcore-mvc.database.windows.net,1433%3bInitial Catalog=dotnetcore_mvc%3bPersist Security Info=False%3bUser ID=admin_dotnetcore_mvc%3bPassword=Pass1234%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
